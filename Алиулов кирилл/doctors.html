@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Алиулов Кирилл И-206б</h1>
+        <p>Сайт посвященный мне </p>
+    
+    <nav>
+        <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="schedule.html">Рассписание</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+    </ul>
+    </nav>
+</header>
+    <table>                   
+        <thead>
+<tr>
+    <th colspan="5">Рассписание на первый семестр 2026/2027</th>
+</tr>
+<tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+        <td rowspan="2">Понедельник</td>
+        <td>15:00-16:20</td>
+        <td>Элементы высшей математики</td>
+        <td>Мулюкина М.Ю</td>
+        <td>И-206б</td>
+    </tr>
+    <tr>
+        <td>16:20-17:50</td>
+        <td>Английский язык</td>
+        <td>Урайкина Е.А</td>
+        <td>И-206б</td>
+    </tr>
+     <tr>
+        <td rowspan="3">Вторник</td>
+        <td>13:30-14:50</td>
+        <td>Графический дизайн</td>
+        <td>Неклюдин М.И</td>
+        <td>И-206б</td>
+    </tr>
+    <tr>
+    <td>14:50-16:20</td>
+        <td>Графический дизайн</td>
+        <td>Неклюдин М.И</td>
+        <td>И-206б</td>
+    </tr>
+<tr>
+    <td>16:20-17-50</td>
+        <td>Проектирование и разработка </td>
+        <td>Глушков В.А</td>
+        <td>И-206б</td>
+</tr>
+<tr>
+        <td rowspan="4">Среда</td>
+        <td>12:00-13:20</td>
+        <td>Операционные системы и среды</td>
+        <td>Левитин Р.В</td>
+        <td>И-206б</td>
+    </tr>
+    <tr>
+        <td>13:30-14:50</td>
+        <td>Информационные технологии</td>
+        <td>Глушков В.А</td>
+        <td>И-206б</td>
+    </tr>
+    <tr>
+        <td>14:50-16:20</td>
+        <td>Графический дизайн</td>
+        <td>Неклюдин М.И</td>
+        <td>И-206б</td>
+    </tr>
+     <tr>
+        <td>16:20-17:50</td>
+        <td>Информационные технологии</td>
+        <td>Глушков В.А</td>
+        <td>И-206б</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Четверг</td>
+        <td>10:00-11:20</td>
+        <td>Основы алгоритмитизации и прорамирования</td>
+        <td>Сергиенко С.Е</td>
+        <td>И-206б</td>
+    </tr>
+    <tr>
+        <td>12:00-13:20</td>
+        <td>Проектирование и разработка</td>
+        <td>Глушков В.А</td>
+        <td>И-206б</td>
+    </tr>
+     <tr>
+        <td>13:20-14:50</td>
+        <td>Проектирование и разработка</td>
+        <td>Глушков В.А</td>
+        <td>И-206б</td>
+    </tr>
+    <tr>
+        <td rowspan="1">Пятница</td>
+        <td>13:30-14:50 (вторая неделя)</td>
+        <td>Физ-ра</td>
+        <td>Белов Е.Ю</td>
+        <td>И-206б</td>
+    </tr>
+    
+</tbody>
+</table>
+ <label for="note-text">Заметки (макс. 200 символов):</label>
+        <textarea id="note-text" name="note-text" maxlength="200" required placeholder="Введите текст заметки..."></textarea>
+
+        <label for="note-date">Дата:</label>
+        <input type="date" id="note-date" name="note-date" required>
+
+        <label for="note-priority">Приоритет:</label>
+            <select id="note-priority" name="note-priority" required>
+                <option value="" disabled selected>Выберите приоритет</option>
+                <option value="low">Низкий</option>
+                <option value="medium">Средний</option>
+                <option value="high">Высокий</option>
+            </select>
+
+        <button type="text" style="margin: 20px 0px 20px 0px;" >Сохранить заметку</button>
+
+    </main>
+
+    <footer style="margin: 50px;">
+        <p>&copy; 2026 Мой второй сайт. Расписание.</p>
+    </footer>
+
+</body>
+</html>
